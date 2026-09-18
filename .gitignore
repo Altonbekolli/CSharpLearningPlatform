@@ -1,0 +1,43 @@
+# -------------------------
+# .NET
+# -------------------------
+bin/
+obj/
+
+# -------------------------
+# Visual Studio
+# -------------------------
+.vs/
+*.user
+*.suo
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+
+# -------------------------
+# Terraform
+# -------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files may contain secrets
+*.tfvars
+*.tfvars.json
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+.env
+.env.*
+secrets.json
+
+# -------------------------
+# Operating System
+# -------------------------
+.DS_Store
+Thumbs.db
